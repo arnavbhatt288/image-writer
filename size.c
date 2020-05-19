@@ -1,10 +1,9 @@
-#define BLKGETSIZE _IO(0x12,96)
-
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <string.h>
 #include <stdio.h>
 #include <errno.h>
+#include <linux/fs.h?
 #include <sys/fcntl.h>
 #include <sys/unistd.h>
 #include <sys/ioctl.h>   
